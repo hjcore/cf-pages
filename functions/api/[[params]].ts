@@ -7,7 +7,7 @@ export async function onRequest(context) {
       { status: 400 }
     );
   }
-  console.log(context.request.headers.get('host'));
+  // console.log(context.request.headers.get('host'));
   const url = context.request.url.replace(source, target);
 
   try {
