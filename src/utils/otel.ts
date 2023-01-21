@@ -63,8 +63,6 @@ export const otelTracer = async (traceType: TraceType | null = null) => {
 
   registerInstrumentations({
     tracerProvider: provider,
-    instrumentations: [
-      getWebAutoInstrumentations(),
-    ],
+    instrumentations: [getWebAutoInstrumentations()],
   });
 };
