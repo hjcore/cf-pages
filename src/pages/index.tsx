@@ -9,6 +9,7 @@ import { increase, decrease, setCountValue } from '@store/reducers/counterExampl
 
 // examples
 import OtelTracer from '@components/OtelTracer';
+import SvgIcon from '@components/SvgIcon';
 
 const useStyles = createStyles(() => ({
   root: {
@@ -80,6 +81,8 @@ export default function Index() {
         <NotificationsButton />
         <ReduxExample />
         <OtelTracer />
+        <SvgIcon width="30px" height="30px" path="favicon" />
+        <SvgIcon width="20px" height="20px" path="svgs/favicon-copy" />
       </Container>{' '}
     </>
   );
