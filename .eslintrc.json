@@ -35,7 +35,8 @@
       {
         "ignoreFunctionalComponents": true
       }
-    ]
+    ],
+    "import/no-dynamic-require": "off"
   },
   "settings": {
     "import/parsers": {
